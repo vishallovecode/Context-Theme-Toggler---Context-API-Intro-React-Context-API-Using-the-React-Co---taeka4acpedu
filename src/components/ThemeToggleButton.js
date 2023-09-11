@@ -9,7 +9,7 @@ const ThemeToggleButton = () => {
       id="global-theme-toggler"
       className={`btn btn-${theme} txt-${theme}`}
       onClick={toggleTheme}
-    >{`Swicth to ${theme == "light" ? "dark" : "light"} theme`}</button>
+    >{`Switch to ${theme=='light'? 'dark': 'light'} theme`}</button>
   );
 };
 export { ThemeToggleButton };
